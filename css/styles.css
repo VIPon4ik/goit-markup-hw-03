@@ -1,3 +1,10 @@
+/* General */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color:rgba(67, 68, 85, 1);
@@ -5,11 +12,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
     background-color: #FFFFFF;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: rgba(67, 68, 85, 1);
+    display: block;
 }
 
 a:hover,
@@ -20,11 +29,18 @@ a:focus {
 
 ul, ol {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
     text-align: center;
     color: var(--navyblue, #2E2F42);
+    margin:0;
 }
 
 h1 {
@@ -71,7 +87,15 @@ button:focus {
     background-color: rgba(64, 75, 191, 1);
 }
 
+img {
+    display: block;
+}
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
 
 /* Header */
 /* Navigation bar */
@@ -96,6 +120,35 @@ button:focus {
     font-weight: 500;
 }
 
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    column-gap: 76px;
+    margin-left:156px;
+}
+
+.navigation-list {
+    display: flex;
+    margin: 24px 0 24px 0;
+    column-gap: 40px;
+}
+
+.address-list {
+    display: flex;
+    margin: 24px 0 24px 0;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.address-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 156px;
+}
+
+.address-links {
+    white-space: nowrap;
+}
 /* Main */
 /* First section */
 
