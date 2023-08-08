@@ -191,14 +191,26 @@ section {
     background-color: rgba(244, 244, 253, 1);
 }
 
-.third-section-li {
-    background-color:#FFF ;
-}
-
 .third-section-title {
     margin-bottom: 72px;
 }
 
+.third-section-li {
+    background-color:#FFF ;
+}
+
+.third-section-list {
+    display: flex;
+    gap: 24px;
+}
+
+.third-section-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    padding: 32px 16px;
+}
 
 /* Footer section */
 
