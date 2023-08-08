@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color:rgba(67, 68, 85, 1);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(67, 68, 85, 1);
+}
+
+a:hover,
+a:focus {
+    color: rgba(64, 75, 191, 1);
+    text-decoration: underline;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    color: var(--navyblue, #2E2F42);
+}
+
+h1 {
+    color: var(--white, #FFF);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; 
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.4px;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    background-color: rgba(77, 90, 229, 1);
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+button:hover,
+button:focus {
+    background-color: rgba(64, 75, 191, 1);
+}
+
+
+
+/* Header */
+/* Navigation bar */
+
+.logo-text {
+    color: var(--iris, #4D5AE5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-span {
+    color:rgba(46, 47, 66, 1);
+}
+
+.navigation-links {
+    color: #2e2f42;
+    font-weight: 500;
+}
+
+/* Main */
+/* First section */
+
+.first-section {
+    background-color: rgba(46, 47, 66, 1);
+}
+
+/* Third section */
+
+.third-section {
+    background-color: rgba(244, 244, 253, 1);
+}
+
+.third-section-list {
+    background-color:#FFF ;
+}
+
+/* Footer section */
+
+.footer-section {
+    background-color: rgba(46, 47, 66, 1);
+}
+.footer-text {
+    color:rgba(244, 244, 253, 1);
+}
+
+.logo-span-footer {
+    color:rgba(244, 244, 253, 1);
+}
