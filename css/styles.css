@@ -97,6 +97,11 @@ img {
     max-width: 100%;
 }
 
+header {
+    padding: 24px 156px 24px 156px;
+    border: 1px solid rgba(231, 233, 252, 1);
+}
+
 /* Header */
 /* Navigation bar */
 
@@ -124,18 +129,15 @@ img {
     display: flex;
     align-items: center;
     column-gap: 76px;
-    margin-left:156px;
 }
 
 .navigation-list {
     display: flex;
-    margin: 24px 0 24px 0;
     column-gap: 40px;
 }
 
 .address-list {
     display: flex;
-    margin: 24px 0 24px 0;
     column-gap: 40px;
     align-items: center;
 }
@@ -143,7 +145,6 @@ img {
 .address-bar {
     display: flex;
     align-items: center;
-    margin-right: 156px;
 }
 
 .address-links {
