@@ -159,7 +159,6 @@ section {
 
 .order-service-button {
   display: block;
-  padding: 16px 32px;
   border-radius: 4px;
   border:none;
   background: var(--iris, #4D5AE5);
@@ -173,7 +172,7 @@ section {
   letter-spacing: 0.64px;
   margin: 0 auto;
   min-width: 169px;
-  height: 59px;
+  height: 56px;
 }
 
 .order-service-button:hover,
@@ -185,12 +184,22 @@ section {
 
 .second-section-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .second-section-list-title {
   margin-bottom: 8px;
   text-align: start;
+}
+
+.second-section-title {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+}
+
+.second-section-list-li {
+  width: calc((100% - 72px)/4);
 }
 
 /* Third section */
