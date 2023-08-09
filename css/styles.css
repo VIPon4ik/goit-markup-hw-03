@@ -193,9 +193,16 @@ section {
 }
 
 .visually-hidden {
-  visibility: hidden;
-  pointer-events: none;
   position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .second-section-list-li {
@@ -260,9 +267,8 @@ section {
   display: flex;
   flex-direction: column;
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid var(--cornflower, #e7e9fc);
-  border-top-width: 0;
+  border-top: none;
 }
 
 .fourth-section-list-title {
