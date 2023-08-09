@@ -82,16 +82,20 @@ section {
 
 .container {
   max-width: 1158px;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Header */
 /* Navigation bar */
 
+.header {
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+}
+
 .header-container {
   display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .header-container a {
@@ -107,6 +111,7 @@ section {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-span {
@@ -121,17 +126,16 @@ section {
 .navigation-bar {
   display: flex;
   align-items: center;
-  column-gap: 76px;
 }
 
 .navigation-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .address-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
   align-items: center;
 }
 
